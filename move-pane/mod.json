@@ -1,0 +1,21 @@
+{
+  "place": "none",
+  "title": "Move pane",
+  "overlay": {
+    "kind": "popup",
+    "at": "top",
+    "offset": 40,
+    "width": 520,
+    "height": 0.6
+  },
+  "palette": [
+    {
+      "title": "Move pane to space…",
+      "command": "mod.open",
+      "args": {
+        "name": "move-pane"
+      },
+      "words": "move terminal pane space transfer"
+    }
+  ]
+}
